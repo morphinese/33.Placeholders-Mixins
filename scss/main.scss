@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,regular,500,700&display=swap');
+
+//!Import base
+@import './base/reset.scss', './base/variables.scss';
+
+//!Import utils
+@import './utils/mixins.scss';
+@import './utils/placeholders.scss';
+
+body {
+	font-family: $mainFontFamily;
+	font-weight: Regular;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	color: $lightBlackColor;
+}
+
+.container {
+	width: 906px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+//! Import components
+@import './components/buttons.scss';
+@import './components/header.scss';
+
+//! Import Pages
+@import './pages/home.scss';

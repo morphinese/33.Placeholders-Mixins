@@ -1,0 +1,43 @@
+.header {
+	margin-top: 71px;
+	margin-bottom: 92px;
+	// .header__container
+
+	&__container {
+	}
+
+	// .header__navigation
+
+	&__navigation {
+	}
+}
+.navigation-header {
+	// .navigation-header__list
+
+	&__list {
+		display: flex;
+		flex-direction: row;
+		gap: 100px;
+		justify-content: center;
+	}
+
+	// .navigation-header__item
+
+	&__item {
+	}
+
+	// .navigation-header__link
+
+	&__link {
+		text-transform: uppercase;
+		color: $veryDarkWhiteColor;
+
+		&:hover {
+			color: $blueColor;
+		}
+		&-active {
+		}
+		&-hidden {
+		}
+	}
+}
